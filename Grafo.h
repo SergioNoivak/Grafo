@@ -3,14 +3,14 @@
 #include<utility>
 #include"No.h"
 using namespace std;
-
 class Grafo
 {
+
 public:
 	vector<No*> vetor;
 	int numero_estados;
-	
-	
+
+
 	bool esta_no_vetor(int nome) {
 		bool result = false;
 
@@ -25,10 +25,10 @@ public:
 	}
 
 	void addVetor() {
-		
-			No* novo_no = new No(this->numero_estados);
-			this->vetor.push_back(novo_no);
-			this->numero_estados++;
+
+		No* novo_no = new No(this->numero_estados);
+		this->vetor.push_back(novo_no);
+		this->numero_estados++;
 	}
 
 	void exibe() {
@@ -38,8 +38,8 @@ public:
 			no->exibe();
 		}
 	}
-	void addAresta(int no1,int no2,double peso) {
-	
+	void addAresta(int no1, int no2, double peso) {
+
 		No* origem = retorna_no(no1);
 		No* fim = retorna_no(no2);
 
@@ -50,7 +50,24 @@ public:
 		}
 		origem->addAresta(fim, peso);
 	}
-	
+
+	void Kruskal() {
+
+	/*	vector<pair<No*, No*>> A;
+		for each (No* corrente in this->vetor)
+		{
+			corrente->conjunto->Con
+		}
+*/
+
+
+
+
+
+
+	}
+
+
 
 	Grafo();
 	~Grafo();

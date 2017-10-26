@@ -1,10 +1,16 @@
 #pragma once	
 #include<vector>
 #include<stdio.h>
-#include <utility>  
+#include <utility>
+#include"Conjunto_Disjunto.h"
 #define _CRT_SECURE_NO_WARNINGS
 
 using namespace std;
+struct conj {
+	Conjunto_Disjunto* Conj;
+	No* proximo;
+};
+
 class No
 {
 private:
@@ -28,6 +34,11 @@ public:
 
 	vector<pair<No*,double>> Adj;
 	int nome;
+
+
+
+	struct conj* conjunto;
+	
 	void addAresta(No* no,double peso) {
 		if (this->existe_Em_Adj(no)) {
 

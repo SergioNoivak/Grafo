@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Conjunto_Disjunto.h" />
     <ClInclude Include="Grafo.h" />
     <ClInclude Include="No.h" />
     <ClInclude Include="Persistencia.h" />
@@ -150,6 +151,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Conjunto_Disjunto.cpp" />
     <ClCompile Include="Grafo.cpp" />
     <ClCompile Include="GrafosAulas.cpp" />
     <ClCompile Include="No.cpp" />

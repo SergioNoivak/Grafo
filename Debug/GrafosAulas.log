@@ -1,6 +1,256 @@
 ﻿  Persistencia.cpp
-  Gerando Código...
-  Compilando...
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(11): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(33): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2535: 'Conjunto_Disjunto::Conjunto_Disjunto(void)': função membro já definida ou declarada
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(16): note: consulte a declaração de 'Conjunto_Disjunto::Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(21): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2238: token(s) inesperado(s) precedendo ';'
+  No.cpp
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(11): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(33): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2535: 'Conjunto_Disjunto::Conjunto_Disjunto(void)': função membro já definida ou declarada
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(16): note: consulte a declaração de 'Conjunto_Disjunto::Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(21): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2238: token(s) inesperado(s) precedendo ';'
   GrafosAulas.cpp
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(11): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(33): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2535: 'Conjunto_Disjunto::Conjunto_Disjunto(void)': função membro já definida ou declarada
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(16): note: consulte a declaração de 'Conjunto_Disjunto::Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(21): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2238: token(s) inesperado(s) precedendo ';'
+  Grafo.cpp
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(8): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(9): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(11): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(33): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2061: erro de sintaxe: identificador 'No'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(43): error C2535: 'Conjunto_Disjunto::Conjunto_Disjunto(void)': função membro já definida ou declarada
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(16): note: consulte a declaração de 'Conjunto_Disjunto::Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(13): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(21): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(22): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2065: 'ponto_de_juncao': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'No': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2039: 'Head': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2065: 'i': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2227: esquerda de '->Conj' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): note: tipo é 'unknown-type'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2065: 'no_do_grafo': identificador não declarado
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2039: 'tail': não é um membro de 'Conjunto_Disjunto'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(5): note: consulte a declaração de 'Conjunto_Disjunto'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->conjunto' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2227: esquerda de '->proximo' deve apontar para tipo class/struct/union/generic
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2238: token(s) inesperado(s) precedendo ';'
+  Conjunto_Disjunto.cpp
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(10): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(10): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(10): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2143: erro de sintaxe: ';' ausente antes de '*'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(11): error C2238: token(s) inesperado(s) precedendo ';'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(23): error C2039: 'proximo': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(24): error C2039: 'proximo': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(26): error C2039: 'Conj': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(35): error C2039: 'Conj': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(36): error C2039: 'proximo': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(37): error C2039: 'proximo': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.h(38): error C2039: 'proximo': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
+c:\users\sergi\source\repos\grafosaulas\grafosaulas\conjunto_disjunto.cpp(12): error C2039: 'proximo': não é um membro de 'conj'
+  c:\users\sergi\source\repos\grafosaulas\grafosaulas\no.h(9): note: consulte a declaração de 'conj'
   Gerando Código...
-  GrafosAulas.vcxproj -> C:\Users\sergi\source\repos\GrafosAulas\Debug\GrafosAulas.exe
