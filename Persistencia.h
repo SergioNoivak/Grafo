@@ -1,10 +1,13 @@
 #pragma once
-#include<stdio.h>
+
+#include<stdio.h>	
 #include<iostream>
 #include<string>
+#include<string.h>
 #include<stdlib.h>
-using namespace std;
+#include<fstream>
 #include "Grafo.h"
+#include"Algoritmo.h"
 using namespace std;
 
 class Persistencia
@@ -22,38 +25,49 @@ public:
 			{
 				fprintf(arquivo_gravacao, "%d %.1f ", atual.first->nome, atual.second);
 			}
-			
+
 			fprintf(arquivo_gravacao, "\n");
 		}
 
 		fclose(arquivo_gravacao);
-	}
-
-
+	
+	 }
 
 	 ///Todo LEITURA
-/*
-	 static void retorna_grafo(char* nome_arquivo) {
-		 FILE* arquivo_leitura = fopen(nome_arquivo, "r");
-		 int numero_de_nos = -1;
-		 fscanf(arquivo_leitura, "%d", &numero_de_nos);
-		 printf("%d", numero_de_nos);
-		 char buffer[10000];
-		 char *tokenize;
-		 int i = 0;
-		 while (!feof(arquivo_leitura)) {
-			 cout << endl << i << endl;
-			 fgets(buffer, 10000, arquivo_leitura);
-			 tokenize = strtok(buffer, " ");
-			 while (tokenize != NULL) {
-				 cout << "*" << tokenize << endl;
-				 tokenize = strtok(NULL, " ");
+
+	 static Grafo* retorna_grafo_do_arquivo() {
+		 fstream arquivo;
+		 arquivo.open("ExemploGrafo.txt");
+		 Grafo* g = new Grafo();
+		 if (arquivo.is_open()) {
+			 int x;
+			 int tamanho_matriz;
+			 arquivo >> tamanho_matriz;
+			 vector<vector<int>> matriz;
+	
+			 	for (int i = 0; i < tamanho_matriz; i++) {
+					vector<int> linha;
+				 for (int j = 0; j < tamanho_matriz; j++) {
+					 arquivo >> x;
+					 linha.push_back(x);
+				 }
+				 matriz.push_back(linha);
 			 }
-			 i++;
+
+			
+				return Algoritmo::matrizparaGrafo(matriz, tamanho_matriz);
+
+			 arquivo.close();
+}
+		 else {
+			 printf("Arquivo nulo");
+			 return NULL;
+			 
 		 }
 	 }
-*/
 
+
+	 
 
 	Persistencia();
 	~Persistencia();

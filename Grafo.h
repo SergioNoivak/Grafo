@@ -1,5 +1,6 @@
 #pragma once
 #include<vector>
+
 #include<utility>
 #include"No.h"
 using namespace std;
@@ -9,15 +10,13 @@ class Grafo
 public:
 	vector<No*> vetor;
 	int numero_estados;
-	
-	
 	bool esta_no_vetor(int nome) {
 		bool result = false;
 
 		for each (No* no in this->vetor)
 		{
 			if (no->nome == nome) {
-				result = false;
+				result = true;
 				break;
 			}
 		}
@@ -51,6 +50,25 @@ public:
 		origem->addAresta(fim, peso);
 	}
 	
+
+
+
+
+
+	void Kruskal() {
+		
+
+		//vector<pair<No*, No*>> arestas_ordenadas;
+		//vector<vector<No*>> set;
+		//for each (No* no in this->vetor)
+		//{
+		//	set.push_back(Algoritmos::MAKE_SET(no));
+		//}
+
+
+
+	}
+
 
 	Grafo();
 	~Grafo();
