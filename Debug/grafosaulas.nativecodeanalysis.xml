@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+      <FILENAME>persistencia.h</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>A declaração local de "i" oculta uma declaração de mesmo nome num escopo externo. Para mais informações, consulte a declaração anterior na linha "51" de "c:\users\sergi\desktop\grafo-master (1)\grafo-master\persistencia.h".</DESCRIPTION>
+    <FUNCTION>Persistencia::retorna_grafo</FUNCTION>
+    <DECORATED>?retorna_grafo@Persistencia@@SAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+      <FILENAME>persistencia.h</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>A declaração local de "j" oculta uma declaração de mesmo nome num escopo externo. Para mais informações, consulte a declaração anterior na linha "51" de "c:\users\sergi\desktop\grafo-master (1)\grafo-master\persistencia.h".</DESCRIPTION>
+    <FUNCTION>Persistencia::retorna_grafo</FUNCTION>
+    <DECORATED>?retorna_grafo@Persistencia@@SAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+      <FILENAME>persistencia.h</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Valor de retorno ignorado: "getchar".</DESCRIPTION>
+    <FUNCTION>Persistencia::retorna_grafo</FUNCTION>
+    <DECORATED>?retorna_grafo@Persistencia@@SAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+      <FILENAME>persistencia.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Leitura de dados inválidos de "matriz[i]":  O tamanho legível é "1*4" bytes, mas "8" bytes podem ser lidos.</DESCRIPTION>
+    <FUNCTION>Persistencia::retorna_grafo</FUNCTION>
+    <DECORATED>?retorna_grafo@Persistencia@@SAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" é NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "&lt;condição do ramo&gt;")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar nesta ramificação, (supor "j&lt;tamanho_matriz")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"j" pode ser igual a 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continuar este loop, (supor "&lt;condição do ramo&gt;")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"j" é uma Saída de "std::basic_istream&lt;char,std::char_traits&lt;char&gt; &gt;::&gt;&gt;" (declarado em c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\istream:283)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\sergi\desktop\grafo-master (1)\grafo-master\</FILEPATH>
+        <FILENAME>persistencia.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Leitura inválida de "matriz[i][1]", (intervalo legível é de 0 a 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

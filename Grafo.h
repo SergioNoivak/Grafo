@@ -73,7 +73,7 @@ public:
 	Grafo();
 	~Grafo();
 
-private:
+
 
 	No* retorna_no(int nome) {
 

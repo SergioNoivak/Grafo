@@ -1,0 +1,61 @@
+﻿  Persistencia.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(942): error C3848: expressão possuindo tipo 'const Comp' perderia alguns qualificadores const-volatile a fim de chamar 'bool Comp::operator ()(No *,No *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(939): note: consulte a referência à instanciação da função modelo 'bool std::_Debug_lt_pred<const Comp&,No*const &,No*const &>(_Pr,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(<expr>)' que está sendo compilada
+          with
+          [
+              _Pr=const Comp &,
+              _Ty1=No *const &,
+              _Ty2=No *const &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(2003): note: ao compilar a função membro '<Desconhecido>' de classe <Desconhecido>
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(2022): note: consulte a referência à instanciação da função modelo 'bool std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Compare(No *const &,No *const &) const' que está sendo compilada
+          with
+          [
+              _Kty=No *,
+              _Pr=Comp,
+              _Alloc=std::allocator<No *>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\set(215): note: consulte a referência à instanciação '<Desconhecido>' de classe <Desconhecido> que está sendo compilada
+  c:\users\sergi\desktop\grafo-master (1)\grafo-master\algoritmo.h(104): note: consulte a referência à instanciação '<Desconhecido>' de classe <Desconhecido> que está sendo compilada
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(942): error C2056: expressão inválida
+  GrafosAulas.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(942): error C3848: expressão possuindo tipo 'const Comp' perderia alguns qualificadores const-volatile a fim de chamar 'bool Comp::operator ()(No *,No *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(939): note: consulte a referência à instanciação da função modelo 'bool std::_Debug_lt_pred<const Comp&,No*const &,No*const &>(_Pr,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(<expr>)' que está sendo compilada
+          with
+          [
+              _Pr=const Comp &,
+              _Ty1=No *const &,
+              _Ty2=No *const &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(2003): note: ao compilar a função membro '<Desconhecido>' de classe <Desconhecido>
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(2022): note: consulte a referência à instanciação da função modelo 'bool std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Compare(No *const &,No *const &) const' que está sendo compilada
+          with
+          [
+              _Kty=No *,
+              _Pr=Comp,
+              _Alloc=std::allocator<No *>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\set(215): note: consulte a referência à instanciação '<Desconhecido>' de classe <Desconhecido> que está sendo compilada
+  c:\users\sergi\desktop\grafo-master (1)\grafo-master\algoritmo.h(104): note: consulte a referência à instanciação '<Desconhecido>' de classe <Desconhecido> que está sendo compilada
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(942): error C2056: expressão inválida
+  Algoritmo.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(942): error C3848: expressão possuindo tipo 'const Comp' perderia alguns qualificadores const-volatile a fim de chamar 'bool Comp::operator ()(No *,No *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(939): note: consulte a referência à instanciação da função modelo 'bool std::_Debug_lt_pred<const Comp&,No*const &,No*const &>(_Pr,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(<expr>)' que está sendo compilada
+          with
+          [
+              _Pr=const Comp &,
+              _Ty1=No *const &,
+              _Ty2=No *const &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(2003): note: ao compilar a função membro '<Desconhecido>' de classe <Desconhecido>
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(2022): note: consulte a referência à instanciação da função modelo 'bool std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,true>>::_Compare(No *const &,No *const &) const' que está sendo compilada
+          with
+          [
+              _Kty=No *,
+              _Pr=Comp,
+              _Alloc=std::allocator<No *>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\set(215): note: consulte a referência à instanciação '<Desconhecido>' de classe <Desconhecido> que está sendo compilada
+  c:\users\sergi\desktop\grafo-master (1)\grafo-master\algoritmo.h(104): note: consulte a referência à instanciação '<Desconhecido>' de classe <Desconhecido> que está sendo compilada
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(942): error C2056: expressão inválida
+  Gerando Código...

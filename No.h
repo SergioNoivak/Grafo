@@ -4,8 +4,9 @@
 #include<stdio.h>
 #include <utility>  
 #define _CRT_SECURE_NO_WARNINGS
-
+#include<iostream>
 using namespace std;
+
 class No
 {
 private:
@@ -28,6 +29,8 @@ public:
 	vector<pair<No*, double>> Adj;
 	int nome;
 	set<No*>* conjunto;
+	No* pi;
+	int chave_para_prim;
 
 	void addAresta(No* no, double peso) {
 		if (this->existe_Em_Adj(no)) {
@@ -86,5 +89,15 @@ public:
 
 	No(int nome);
 	~No();
+
+};
+
+
+struct Comp {
+
+	bool operator() (No* p1, No* p2)
+	{
+		return p1->chave_para_prim < p2->chave_para_prim;
+	}
 
 };
