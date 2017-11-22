@@ -37,7 +37,7 @@ public:
 			no->exibe();
 		}
 	}
-	void addAresta(int no1,int no2,double peso) {
+	void Add_aresta_direcionada(int no1,int no2,double peso) {
 	
 		No* origem = retorna_no(no1);
 		No* fim = retorna_no(no2);
@@ -50,25 +50,16 @@ public:
 		origem->addAresta(fim, peso);
 	}
 	
-
-
-
-
-
-	void Kruskal() {
-		
-
-		//vector<pair<No*, No*>> arestas_ordenadas;
-		//vector<vector<No*>> set;
-		//for each (No* no in this->vetor)
-		//{
-		//	set.push_back(Algoritmos::MAKE_SET(no));
-		//}
-
-
-
+	void Add_aresta_nao_direcionada(int no1, int no2, double peso) {
+		this->Add_aresta_direcionada(no1, no2, peso);
+		this->Add_aresta_direcionada(no2, no1, peso);
 	}
 
+
+
+
+
+	
 
 	Grafo();
 	~Grafo();

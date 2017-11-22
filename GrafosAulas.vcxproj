@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Algoritmo.h" />
     <ClInclude Include="Grafo.h" />
+    <ClInclude Include="Grafo_nao_direcionado.h" />
     <ClInclude Include="No.h" />
     <ClInclude Include="Persistencia.h" />
     <ClInclude Include="stdafx.h" />
@@ -154,6 +155,7 @@
     <ClCompile Include="Algoritmo.cpp" />
     <ClCompile Include="Grafo.cpp" />
     <ClCompile Include="GrafosAulas.cpp" />
+    <ClCompile Include="Grafo_nao_direcionado.cpp" />
     <ClCompile Include="No.cpp" />
     <ClCompile Include="Persistencia.cpp" />
     <ClCompile Include="stdafx.cpp">

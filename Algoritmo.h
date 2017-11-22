@@ -4,7 +4,6 @@
 #include<iostream>
 #include<vector>
 #include<set>
-
 #include<stdlib.h>
 #include"Grafo.h"
 #include"No.h"
@@ -26,7 +25,7 @@ public:
 		{
 			for each(int value in linha) {
 				if (value >= 0) {
-					g->addAresta(i, j, value);
+					g->Add_aresta_direcionada(i, j, value);
 				}
 				j++;
 			}
@@ -116,13 +115,6 @@ public:
 		}
 
 		
-		for each (No* var in Q)
-		{
-			cout << " " << var->chave_para_prim;
-		}
-
-
-		
 		cout << "\n PRIM============\n";
 		while (!Q.empty()) {
 			No* u = EXTRACT_MIN(Q);
@@ -130,10 +122,17 @@ public:
 			for each (pair<No*,double> flexa in u->Adj)
 			{
 				if (pertence(flexa.first, Q)&&flexa.second<flexa.first->chave_para_prim ) {
+					/*cout << endl << "{";
+					for each (No* var in Q)
+					{
+						cout << var->chave_para_prim << " ,";
+					}
+					cout << "}" << endl;*/
+					EXTRACT(Q, flexa.first);
 					flexa.first->pi = u;
 					flexa.first->chave_para_prim = flexa.second;
+					Q.insert(flexa.first);
 				}
-
 			}
 }
 		cout << endl;
@@ -156,6 +155,21 @@ public:
 		Q.erase(Q.begin());
 		return u;
 	}
+	static void EXTRACT(multiset<No*, Comp>& Q,No* no) {
+		
+		for (multiset<No*, Comp>::iterator it = Q.begin(); it != Q.end(); ++it)
+		{
+			if ((*it)->nome == no->nome) {
+				Q.erase(it);
+				break;
+		}
+	}
+
+		
+	}
+
+
+
 
 	static void exibe_set(set<No*>* conjunto) {
 		cout << "{";
@@ -227,12 +241,8 @@ public:
 		for each (pair<pair<No*, No*>, double> aresta_fisica in arestas)
 		{
 			cout << "(" << aresta_fisica.first.first->nome << " , " << aresta_fisica.first.second->nome << " , " << aresta_fisica.second << ")" << endl;
-
 		}
-
-
 	}
-
 
 	Algoritmo();
 	~Algoritmo();
