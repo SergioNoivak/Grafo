@@ -1,4 +1,5 @@
 #pragma once
+#include <map>
 #include<limits>
 #include<algorithm>
 #include<iostream>
@@ -43,16 +44,12 @@ public:
 		for each (No* vertice in g->vetor)
 		{
 			vertice->MAKE_SET();
-			cout << endl;
-			exibe_set(vertice->conjunto);
-			cout << endl;
 		}
 
 		vector <pair<pair<No*, No*>, double>> arestas;
 		iniciar_arestas(arestas, g);
 		ordenar_arestas(arestas);
-		exibir_arestas(arestas);
-		cout << endl << endl;
+
 
 		for each (pair<pair<No*, No*>, double> aresta_fisica in arestas)
 		{
@@ -62,93 +59,60 @@ public:
 			set<No*>* conjunto1 = u->FIND_SET();
 			set<No*>* conjunto2 = v->FIND_SET();
 			if (conjunto1 != conjunto2) {
-				cout << endl;
-				cout << "\nconjunto1:(u)\n";
-				exibe_set(conjunto1);
-				cout << endl;
-				cout << "\nconjunto2:(v)\n";
-				exibe_set(conjunto2);
 				resposta.push_back(aresta_fisica);
-				cout << "Resposta:" << endl;
-				exibir_arestas(resposta);
-				cout << endl;
 				u->UNION(v);
-				cout << "\n====Conjuntos apos juncao :" << endl;
-				cout << endl << "u:";
-				exibe_set(u->conjunto);
-				cout << endl << "v:";
-				exibe_set(v->conjunto);
-				cout << endl;
 			}
 			conjunto1 = NULL;
 			conjunto2 = NULL;
 		}
+		cout << "Solucao do Algoritmo de KRUSKAL:";
+		cout << "\n Arvore Geradora Minima =";
 
-		cout << endl << endl;
+
 		exibir_arestas(resposta);
 
-
-
-
 	}
 
 
-
-
-
-	
 	static void Prim(Grafo* g, int comeco) {
-		
-		
-		multiset<No*, Comp> Q;
-		
+
+
+		vector<pair<No*, No*>> solucao;
 		No* r = g->retorna_no(comeco);
-		r->chave_para_prim = 0;
-
-		for each (No* u in g->vetor)
-		{
-			if(u!=r)   
-				u->chave_para_prim = INT_MAX;
-			u->pi = NULL;
-			Q.insert(u);
-
-		}
-
-		
-		cout << "\n PRIM============\n";
-		while (!Q.empty()) {
-			No* u = EXTRACT_MIN(Q);
-			cout <<" "<< u->nome;
-			for each (pair<No*,double> flexa in u->Adj)
+		if (r != NULL) {
+			r->chave_para_prim = 0;
+			map<No*, bool> B;
+			map<No*, bool> A;
+			for each (No* var in g->vetor)
 			{
-				if (pertence(flexa.first, Q)&&flexa.second<flexa.first->chave_para_prim ) {
-					/*cout << endl << "{";
-					for each (No* var in Q)
-					{
-						cout << var->chave_para_prim << " ,";
-					}
-					cout << "}" << endl;*/
-					EXTRACT(Q, flexa.first);
-					flexa.first->pi = u;
-					flexa.first->chave_para_prim = flexa.second;
-					Q.insert(flexa.first);
+				if (var != r) {
+					B.insert(make_pair(var, true));
+
 				}
 			}
-}
-		cout << endl;
-		for each (No* var in g->vetor)
-		{
-			cout << " ";
-			cout << var->nome<<"["<<var->chave_para_prim<<"] "<< "->";
-			var->pi == NULL ? cout << "null" : cout << var->pi->nome;
-			cout << endl;
+			A.insert(make_pair(r, true));
 			
+
+			while (!B.empty()) {
+				pair<No*, No*> aresta_minima = MINIMUM_PAIR(A, B, g);
+				B.erase(aresta_minima.second);
+				A.insert(make_pair(aresta_minima.second, true));
+				solucao.push_back(aresta_minima);
+			}
+			cout << "Solucao do Algoritmo de PRIM:";
+			cout << "\n Arvore Geradora Minima = {";
+			int soma_de_pesos = 0;
+			for each (pair<No*, No*> var in solucao)
+			{
+				soma_de_pesos += g->get_custo_aresta(var.first, var.second);
+				cout << " (" << var.first->nome << " ; " << var.second->nome << ")   ";
+			}
+			cout << "} CUSTO : "<<soma_de_pesos<<"\n";
 		}
-
-
+		else {
+			cout << "\n O grafo nao possui esse vertice inicial para prim" << endl;;
+		}
 	}
-
-
 
 	static No* EXTRACT_MIN(multiset<No*, Comp>& Q) {
 		No* u = *Q.begin();
@@ -169,6 +133,25 @@ public:
 	}
 
 
+	static pair<No*, No*> MINIMUM_PAIR(map<No*,bool> A, map<No*, bool> B, Grafo* g) {
+		
+		pair<No*, No*> aresta;
+		double minimo = INT_MAX;
+		for each (pair<No*,bool> n_a in A)
+		{
+			for each (pair<No*, bool> n_b in B)
+			{
+				
+				int value = g->get_custo_aresta(n_a.first, n_b.first);
+				if (minimo > value && value > 0) {
+					minimo = value;
+					aresta.first = n_a.first;
+					aresta.second = n_b.first;
+				}
+			}
+		}
+		return aresta;
+	}
 
 
 	static void exibe_set(set<No*>* conjunto) {
@@ -188,10 +171,9 @@ public:
 
 		for each (No* no in Q)
 		{
-			if (no == v)
+			if (no->nome == v->nome)
 				return true;
 		}
-
 		return false;
 	}
 
@@ -238,10 +220,17 @@ public:
 
 	static void exibir_arestas(vector <pair<pair<No*, No*>, double>> arestas) {
 
+		cout << "{ ";
+		int soma_dos_pesos=0;
 		for each (pair<pair<No*, No*>, double> aresta_fisica in arestas)
 		{
-			cout << "(" << aresta_fisica.first.first->nome << " , " << aresta_fisica.first.second->nome << " , " << aresta_fisica.second << ")" << endl;
+			cout << "(" << aresta_fisica.first.first->nome << " ; " << aresta_fisica.first.second->nome << ")"<<"   ";
+			soma_dos_pesos += aresta_fisica.second;
 		}
+
+		cout << "} ";
+
+		cout << "CUSTO : " << soma_dos_pesos<<endl;
 	}
 
 	Algoritmo();

@@ -56,6 +56,17 @@ public:
 	}
 
 
+	double get_custo_aresta(No* no1, No* no2) {
+
+		for each (pair<No*,double> flexa in no1->Adj)
+		{
+			if (flexa.first == no2) {
+				return flexa.second;
+			}
+		}
+		return -1;
+	}
+
 
 
 
