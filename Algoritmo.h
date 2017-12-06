@@ -1,4 +1,5 @@
 #pragma once
+#include"Rede_de_fluxo.h"
 #include <map>
 #include<limits>
 #include<algorithm>
@@ -232,6 +233,40 @@ public:
 
 		cout << "CUSTO : " << soma_dos_pesos<<endl;
 	}
+
+		
+	static Grafo* __atualiza_grafo_residual( Rede_de_fluxo* rede) {
+		Grafo* grafo_residual = new Grafo();
+		for each (No* no_vetor in grafo_residual->vetor)
+		{
+			for each (pair<No*,double> flexa in no_vetor->Adj)
+			{
+				
+			}
+
+		}
+
+
+
+
+	}
+
+
+	static void Ford_Fulkerson(Rede_de_fluxo* rede, int nome_fonte, int nome_sorvedouro) {
+
+		No* fonte = rede->retorna_no(nome_fonte);
+		No* sorvedouro= rede->retorna_no(nome_sorvedouro);
+		if (fonte == NULL || sorvedouro == NULL) {
+			cout << "Impossivel fazer Ford_Fulkerson, pois a fonte ou/e o sorvedouro estao nulos";
+			return;
+		}
+		Grafo* grafo_residual = new Grafo();
+	}
+
+	
+
+
+
 
 	Algoritmo();
 	~Algoritmo();

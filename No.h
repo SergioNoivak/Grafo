@@ -30,6 +30,7 @@ public:
 	No* pi;
 	int chave_para_prim;
 	vector<double> fluxo;
+	int cor;
 	int indice_no_vetor_de_fluxo(No* no) {
 
 		int i = 0;

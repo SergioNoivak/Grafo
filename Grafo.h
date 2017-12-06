@@ -1,6 +1,6 @@
 #pragma once
 #include<vector>
-
+#include<stdarg.h>
 #include<utility>
 #include"No.h"
 using namespace std;
@@ -49,6 +49,28 @@ public:
 		}
 		origem->addAresta(fim, peso);
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	void Add_aresta_nao_direcionada(int no1, int no2, double peso) {
 		this->Add_aresta_direcionada(no1, no2, peso);
