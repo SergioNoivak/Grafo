@@ -1,0 +1,21 @@
+﻿"GrafosAulas.exe" (Win32): Carregado "C:\Users\sergi\Desktop\Grafo-master (1)\Grafo-master\Debug\GrafosAulas.exe". Símbolos carregados.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\ntdll.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\kernel32.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Não carregado "C:\Windows\syswow64\kernel32.dll"
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\kernel32.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\KernelBase.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\apphelp.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\msvcp140d.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\vcruntime140d.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\ucrtbased.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\kernel.appcore.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\msvcrt.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\rpcrt4.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\sspicli.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\cryptbase.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\bcryptprimitives.dll". Não é possível localizar ou abrir o arquivo PDB.
+"GrafosAulas.exe" (Win32): Carregado "C:\Windows\syswow64\sechost.dll". Não é possível localizar ou abrir o arquivo PDB.
+O thread 0x2810 foi fechado com o código 0 (0x0).
+O thread 0x1ae4 foi fechado com o código 0 (0x0).
+O thread 0x2348 foi fechado com o código 0 (0x0).
+O programa "[9692] GrafosAulas.exe" foi fechado com o código 0 (0x0).

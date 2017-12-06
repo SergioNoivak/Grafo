@@ -20,8 +20,6 @@ private:
 				result = true;
 				break;
 			}
-
-
 		}return result;
 	}
 
@@ -31,6 +29,20 @@ public:
 	set<No*>* conjunto;
 	No* pi;
 	int chave_para_prim;
+	vector<double> fluxo;
+	int indice_no_vetor_de_fluxo(No* no) {
+
+		int i = 0;
+		for each (pair<No*, double> corrente in this->Adj)
+		{
+			if (corrente.first->nome == no->nome) {
+				return i;
+			}
+			i++;
+
+		}return -1;
+	}
+
 
 	void addAresta(No* no, double peso) {
 		if (this->existe_Em_Adj(no)) {
@@ -42,6 +54,7 @@ public:
 		nova_aresta.first = no;
 		nova_aresta.second = peso;
 		this->Adj.push_back(nova_aresta);
+		this->fluxo.push_back(0.0);
 	}
 
 	void exibe() {
